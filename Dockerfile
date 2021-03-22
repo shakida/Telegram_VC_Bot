@@ -1,9 +1,9 @@
-RUN apt-get update -y && \
-    apt-get install -yqq \
-        python3-pip \
-        git \
-        ffmpeg && \
-    pip3 install -U -r requirements.txt
+FROM debian:latest
 
-WORKDIR /MusicBot
-CMD ["python3" "main.py"]
+RUN apt update && apt upgrade -y
+RUN apt install git curl python3-pip ffmpeg -y
+RUN pip3 install -U pip
+WORKDIR /app/
+COPY . /app/
+RUN pip3 install -U -r requirements.txt
+CMD python3 main.py
