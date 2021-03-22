@@ -1,5 +1,5 @@
 {
-    "name": "Shakida-Music",
+    "name": "Telegram_VC_Bot",
     "description": "An Open-source PyTgCalls based Pyrogram bot to play music in voice chats",
     "keywords": [
       "telegram",
@@ -7,7 +7,7 @@
       "pytgcalls",
       "productivity"
     ],
-    "repository": "https://github.com/shakida/Shakida-Music",
+    "repository": "https://github.com/shakida/Telegram_VC_Bot",
     "stack": "container",
     "env": {
       "API_ID": {
