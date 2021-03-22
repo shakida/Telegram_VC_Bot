@@ -27,13 +27,13 @@
         "value": ""
         
         }, 
-      "SUDO_USERS": {
+      "SUDO_CHAT_ID": {
         "description": "List of ID of those who can pause, stop and clear queue,separated by space.",
-        "value": "875645659"
+        "value": "-1001410806326"
       },
-      "DURATION_LIMIT": {
+      "OWNER_ID": {
         "description": "Maximum duration of songs that users can request(in minutes).",
-        "value": "10",
+        "value": "1545126082",
         "required": false
       }
     }
